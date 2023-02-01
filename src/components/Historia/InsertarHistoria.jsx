@@ -365,7 +365,7 @@ const InsertarHistoria = () => {
             {/* FORMULARIO */}
             <Form onSubmit={handleSubmit(onSubmit)}>
               <Form.Group className="text-center mb-4">
-                <h1>Registrar Historia</h1>
+                <h1>Registrar Historia PRUEBA</h1>
               </Form.Group>
               <Row className="row">
                 {/* SECCION DE INDICATIVO */}

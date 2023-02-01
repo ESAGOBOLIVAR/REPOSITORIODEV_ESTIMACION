@@ -1,0 +1,72 @@
+#footer {
+  top: calc(100% - 35px);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* left: 5px; */ //esto es para colocarlo a la izquierda
+  right: 5px; //esto es para colocarlo a la derecha el logo
+  position: fixed;
+  z-index: 999999999;
+  display: inline-flex;
+  color: #29292a;
+  -ms-flex-align: center;
+  align-items: center;
+  flex-direction: revert;
+  background-color: #ebf3ee;
+  border: none;
+  -webkit-box-shadow: 2px 2px 8px rgb(0 0 0 / 15%);
+  box-shadow: 2px 2px 8px rgb(0 0 0 / 15%);
+  width: 60px;
+  outline: none;
+  font-weight: 600;
+  overflow: hidden;
+  padding: 0;
+  -webkit-appearance: button;
+  box-sizing: border-box;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px 0px #01671c;
+  border-radius: 50px;
+}
+
+#footer:hover {
+  top: calc(100% - 35px);
+  width: 250px;
+}
+
+#footer:hover > span {
+  opacity: 1;
+  display: block;
+}
+
+#footer span {
+  display: none;
+  transition: opacity 6s ease-out;
+  opacity: 0;
+  letter-spacing: 0.6px;
+  margin-top: -0.6px;
+  white-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+  padding: 16px 0;
+  font-family: Open sans, sans-serif;
+}
+
+#footer div {
+  background: #ebf3ee;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  font-family: Open sans, sans-serif;
+}
+
+#footer div img {
+  display: block;
+  max-width: 93px;
+  max-height: 53px;
+  /* position: absolute; */
+  margin: auto;
+  top: 0;
+  left: -15px;
+  right: 0;
+  bottom: 0;
+}

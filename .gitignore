@@ -1,0 +1,4 @@
+# IGNORAR LA CARPETA node_modules
+/node_modules
+
+.parcel-cache
